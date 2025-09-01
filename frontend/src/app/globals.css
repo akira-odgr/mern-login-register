@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+    button {
+        @apply cursor-pointer;
+    }
+}
+
+@layer components {
+    .form-container {
+        @apply min-h-screen flex items-center justify-center bg-gray-100;
+    }
+
+    .form-card {
+        @apply bg-white p-8 rounded-lg shadow-lg w-full max-w-md border border-gray-200;
+    }
+
+    .form-title {
+        @apply text-2xl font-bold mb-6 text-center text-gray-800;
+    }
+}
+
+@layer utilities {
+    .flex-center {
+        @apply flex items-center justify-center;
+    }
+}
